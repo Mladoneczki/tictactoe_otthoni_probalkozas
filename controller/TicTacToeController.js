@@ -14,6 +14,5 @@ export default class TicTacToeController{
             this.tTModel.mezoJeloles(event.detail)
             this.tTModel.nyertE()
             this.jatekTer.vegKimenetel(this.tTModel.nyert)
-           console.log(this.tTModel.nyert)
         })
 } }

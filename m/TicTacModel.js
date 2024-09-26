@@ -22,7 +22,6 @@ export default class TicTacModel {
       szulo.addClass("hasznalt");
     }
     this.jatekKor++;
-    console.log(this.jatekKor)
   }
 
   nyertE() {
