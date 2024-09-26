@@ -1,0 +1,16 @@
+.mezo{
+    width: 50px;
+    height: 50px;
+    border:1px solid gray;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.jatek {
+    display:grid;
+    grid-template-columns: 60px 60px 60px;
+   
+}
+.hasznalt {
+    pointer-events: none;
+    background-color: grey;
+}
