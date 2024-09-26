@@ -14,3 +14,8 @@
     pointer-events: none;
     background-color: grey;
 }
+.eredmeny{
+    font-size: large;
+    font-style: bold;
+    color:red;
+}

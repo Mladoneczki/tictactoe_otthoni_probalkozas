@@ -17,10 +17,12 @@ export default class Jatekter{
 
     vegKimenetel(eredmeny){
         if(eredmeny==true){
-            this.szuloElem.append("<div><p>Gratulálok! Nyertél!</p></div>")
+            this.szuloElem.children().addClass("hasznalt")
+            this.szuloElem.append("<div><p class='eredmeny'>Gratulálok! Nyertél!</p></div>")
         }
         else if(eredmeny==false){
-            this.szuloElem.append("<div><p>Döntetlen!</p></div>")
+            this.szuloElem.children().addClass("hasznalt")
+            this.szuloElem.append("<div><p class='eredmeny'>Döntetlen!</p></div>")
 
         }
     }
